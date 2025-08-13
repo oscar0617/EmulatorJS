@@ -1,6 +1,6 @@
 import React from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
-import Home from './components/home.jsx';
+import Home from './components/Home.jsx';
 import Aa from './components/aa.jsx';
 import Botones from './components/Botones.jsx';
 
