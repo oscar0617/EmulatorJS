@@ -9,8 +9,8 @@ const App = () => {
     <div>
       <Game
         src="/final.html"
-        title="Juego de NES"
-        height="800px"
+        title="AAAAAAAA"
+        height="500px"
       />
       <footer>A Anthony lo toca el tio</footer>
     </div>
