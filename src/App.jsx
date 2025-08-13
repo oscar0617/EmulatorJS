@@ -1,20 +1,27 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import Game from './components/game.jsx'
-import './App.css'
+import React from 'react';
+import { Routes, Route, Link } from 'react-router-dom';
+import Home from './components/home.jsx';
+import Aa from './components/aa.jsx';
+import Botones from './components/Botones.jsx';
 
-const App = () => {
+function App() {
   return (
-    <div>
-      <Game
-        src="/final.html"
-        title="AAAAAAAA"
-        height="500px"
-      />
-      <footer>A Anthony lo toca el tio</footer>
+    <div className='principal'>
+      <Home />
+      <Botones />
+      <Routes>
+        <Route path="/1" element={<Aa src="/final.html"/>}/>
+        <Route path="/2" element={<Aa src="/final1.html"/>} />
+        <Route path="/3" element={<Aa src="/final2.html"/>} />
+        <Route path="/4" element={<Aa src="/final3.html"/>} />
+        <Route path="/5" element={<Aa src="/final4.html"/>} />
+        <Route path="/6" element={<Aa src="/final5.html"/>} />
+        <Route path="/7" element={<Aa src="/final6.html"/>} />
+        <Route path="/8" element={<Aa src="/final7.html"/>} />
+
+      </Routes>
     </div>
   );
-};
+}
 
-export default App
+export default App;

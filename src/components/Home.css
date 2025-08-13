@@ -1,0 +1,12 @@
+.home-container {
+  justify-content: center;
+  text-align: center;
+  padding: 50px;
+  color: #fff;
+}
+
+.home-container img{
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+}
