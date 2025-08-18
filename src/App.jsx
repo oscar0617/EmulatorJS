@@ -30,6 +30,8 @@ function App() {
         <Route path="/14" element={<Aa src="/gba/final1.html"/>} />
         <Route path="/15" element={<Aa src="/gba/final2.html"/>} />
         <Route path="/16" element={<Aa src="/gba/final3.html"/>} />
+
+        <Route path="/17" element={<Aa src="/psx/final1.html"/>} />
       </Routes>
     </div>
   );

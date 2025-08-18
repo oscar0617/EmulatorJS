@@ -74,6 +74,16 @@ const Botones = () => {
           
         </div>
       </div>
+
+      <div className='n'>
+        <h2>PSX</h2>
+        <div className='botones-j'>
+          <Link to="/17">
+            <button>G</button> 
+          </Link>
+          
+        </div>
+      </div>
       <Link to="/00">
         <button className='inicio'>Inicio</button>
       </Link>
