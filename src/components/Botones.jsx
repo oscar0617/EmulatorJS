@@ -29,16 +29,16 @@ const Botones = () => {
         <h2>SN</h2>
         <div className='botones-j'>
           <Link to="/6">
-            <button>SM</button> 
+            <button>MX</button> 
           </Link>
           <Link to="/7">
-            <button>ST</button>
+            <button>MX2</button>
           </Link>
           <Link to="/8">
-            <button>SMK</button>
+            <button>MX3</button>
           </Link>
           <Link to="/9">
-            <button>MMX</button>
+            <button>B</button>
           </Link>
           <Link to="/10">
             <button>TG</button>
@@ -66,7 +66,7 @@ const Botones = () => {
             <button>G</button> 
           </Link>
           <Link to="/15">
-            <button>MF</button>
+            <button>SH2</button>
           </Link>
           <Link to="/16">
             <button>MKSC</button>
@@ -79,7 +79,7 @@ const Botones = () => {
         <h2>PSX</h2>
         <div className='botones-j'>
           <Link to="/17">
-            <button>G</button> 
+            <button>MX4</button>
           </Link>
           
         </div>
