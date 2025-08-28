@@ -49,6 +49,12 @@ const Botones = () => {
           <Link to="/21">
             <button>TG3000</button>
           </Link>
+          <Link to="/23">
+            <button>D</button>
+          </Link>
+          <Link to="/24">
+            <button>KI</button>
+          </Link>
         </div>
       </div>
       <div className='n'>
@@ -88,12 +94,26 @@ const Botones = () => {
             <button>N</button>
           </Link>
           <Link to="/18">
-            <button>CB</button>
+            <button>RE2</button>
           </Link>
           <Link to="/19">
-            <button>AC2</button>
+            <button>MX4</button>
           </Link>
-          
+        </div>
+      </div>
+
+      <div className='n'>
+        <h2>N64</h2>
+        <div className='botones-j'>
+          <Link to="/22">
+            <button>SM64</button>
+          </Link>
+          <Link to="/25">
+            <button>SSB</button>
+          </Link>
+          <Link to="/26">
+            <button>RE2</button>
+          </Link>
         </div>
       </div>
       <Link to="/00">

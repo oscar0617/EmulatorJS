@@ -24,6 +24,8 @@ function App() {
         <Route path="/10" element={<Aa src="/snes/final5.html"/>} />
         <Route path="/20" element={<Aa src="/snes/final6.html"/>} />
         <Route path="/21" element={<Aa src="/snes/final7.html"/>} />
+        <Route path="/23" element={<Aa src="/snes/final8.html"/>} />
+        <Route path="/24" element={<Aa src="/snes/final9.html"/>} />
 
         <Route path="/11" element={<Aa src="/gbc/final1.html"/>} />
         <Route path="/12" element={<Aa src="/gbc/final2.html"/>} />
@@ -36,6 +38,10 @@ function App() {
         <Route path="/17" element={<Aa src="/psx/final1.html"/>} />
         <Route path="/18" element={<Aa src="/psx/final2.html"/>} />
         <Route path="/19" element={<Aa src="/psx/final3.html"/>} />
+
+        <Route path="/22" element={<Aa src="/n64/final1.html"/>} />
+        <Route path="/25" element={<Aa src="/n64/final2.html"/>} />
+        <Route path="/26" element={<Aa src="/n64/final3.html"/>} />
       </Routes>
     </div>
   );
